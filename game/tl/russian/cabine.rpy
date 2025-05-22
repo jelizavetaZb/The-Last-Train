@@ -1,4 +1,4 @@
-﻿# game/cabine.rpy:62
+# game/cabine.rpy:62
 translate russian mirror_choice_5dd835c8:
     g "Я смотрю в зеркало…"
 

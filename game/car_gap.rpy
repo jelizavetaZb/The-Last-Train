@@ -43,7 +43,7 @@ screen car_gap_map():
             background Solid("#ff00ffaa")
     imagebutton:
         idle "gui/transparent.png" hover "gui/transparent.png"
-        xpos 1300 ypos 300 xsize 200 ysize 600
+        xalign 1.0 yalign 0.5 xsize 500 ysize 1400
         mouse "hover"
         action Jump("car_gap_forward_choice")
 
@@ -113,5 +113,5 @@ label car_gap_forward_choice:
             jump empty_wagon_1  # Replace with your actual next label
         "Don’t open it":
             g "Not yet. Not this way."
-            call screen car_gap_bad_end
+            jump car_gap_bad_end
             return

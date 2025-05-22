@@ -1,5 +1,3 @@
-# variables.rpy — Global game state and flags
-
 # Player state
 default remembered_self = False
 default player_name = _("Passenger")

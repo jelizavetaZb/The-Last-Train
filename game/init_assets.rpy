@@ -1,6 +1,3 @@
-# init_assets.rpy
-# Assets: images and audio declarations
-
 # BACKGROUNDS
 init:
     image bg coupe_start = "images/bg_coupe_start.png"

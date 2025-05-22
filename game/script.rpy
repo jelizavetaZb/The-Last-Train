@@ -19,7 +19,6 @@ label start:
     g "A compartment. I'm... on a train?"
     g "I should look around. Maybe something here will help."
 
-    # Включаем поинт-энд-клик
     $ mirror_active = True
     hide window
     hide screen quick_menu
